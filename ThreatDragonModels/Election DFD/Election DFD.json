@@ -2354,7 +2354,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "Registration Confirmation / Enable Export Option",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -2366,7 +2366,7 @@
               "threats": []
             },
             "labels": [
-              "Data Flow"
+              "Registration Confirmation / Enable Export Option"
             ],
             "id": "ad789819-7c04-4df4-bd97-14cd23ecba31",
             "source": {
