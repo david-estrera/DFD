@@ -4835,16 +4835,6 @@
             "target": {
               "x": 890,
               "y": 560
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead"
-              ],
-              "name": null
             }
           }
         ],
