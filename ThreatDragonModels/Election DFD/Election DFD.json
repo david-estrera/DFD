@@ -19,7 +19,33 @@
         "cells": [
           {
             "position": {
-              "x": -1420,
+              "x": -1300.0000000000007,
+              "y": -519.9999999999989
+            },
+            "size": {
+              "width": 740,
+              "height": 540
+            },
+            "attrs": {
+              "label": {
+                "text": "Perimeter firewall"
+              }
+            },
+            "visible": true,
+            "shape": "trust-boundary-box",
+            "id": "ac524c01-cccf-4e42-9080-ae508d9be4dd",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "Perimeter firewall",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            }
+          },
+          {
+            "position": {
+              "x": -1520,
               "y": -550
             },
             "size": {
@@ -38,6 +64,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 1,
             "ports": {
               "groups": {
                 "top": {
@@ -121,7 +148,6 @@
               ]
             },
             "id": "247a1176-8b95-4cfb-a771-972896abfde2",
-            "zIndex": 1,
             "data": {
               "type": "tm.Actor",
               "name": "Voter",
@@ -154,6 +180,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 2,
             "ports": {
               "groups": {
                 "top": {
@@ -237,7 +264,6 @@
               ]
             },
             "id": "01a602ae-e525-4930-8c7c-93e1fbc84d10",
-            "zIndex": 2,
             "data": {
               "type": "tm.Process",
               "name": "Web Application (Frontend Login)",
@@ -273,6 +299,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 3,
             "ports": {
               "groups": {
                 "top": {
@@ -356,7 +383,6 @@
               ]
             },
             "id": "bc07c109-4464-403b-9b59-a2b6046f1a32",
-            "zIndex": 3,
             "data": {
               "type": "tm.Process",
               "name": "Node.js Server (Authentication API)",
@@ -395,6 +421,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 4,
             "ports": {
               "groups": {
                 "top": {
@@ -478,7 +505,6 @@
               ]
             },
             "id": "b03cd370-0d66-4554-a311-6203441c9de0",
-            "zIndex": 4,
             "data": {
               "type": "tm.Store",
               "name": "MongoDB (Voter Credentials)",
