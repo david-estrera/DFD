@@ -2494,7 +2494,735 @@
         "placeholder": "New STRIDE diagram description",
         "thumbnail": "./public/content/images/thumbnail.stride.jpg",
         "version": "2.4.1",
-        "cells": [],
+        "cells": [
+          {
+            "position": {
+              "x": 110,
+              "y": 220
+            },
+            "size": {
+              "width": 180,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Election Administrator"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "8d7e5907-bd8f-4086-b437-af293768bb60"
+                },
+                {
+                  "group": "right",
+                  "id": "41992a7c-97c5-4fa8-a7b1-45c29e9a4995"
+                },
+                {
+                  "group": "bottom",
+                  "id": "964d9d7d-3214-4311-bedc-b9d82825f16d"
+                },
+                {
+                  "group": "left",
+                  "id": "b7f8a555-e340-47c0-96a4-1774e5abc852"
+                }
+              ]
+            },
+            "id": "be3e2d0f-f07f-4b04-aeb4-abe1b7ee1a9f",
+            "zIndex": 1,
+            "data": {
+              "type": "tm.Actor",
+              "name": "Election Administrator",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "providesAuthentication": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 402,
+              "y": 220
+            },
+            "size": {
+              "width": 300,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Web Application (Frontend Candidate Interface)"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "c4eab3c7-d3e2-4528-a7e2-729907f515ed"
+                },
+                {
+                  "group": "right",
+                  "id": "f0e5511a-cda5-4e02-a17b-49dbaf049e79"
+                },
+                {
+                  "group": "bottom",
+                  "id": "f35b2bcd-21d1-4891-9489-04650744cbd4"
+                },
+                {
+                  "group": "left",
+                  "id": "8acea98e-82f6-4928-828b-77f0aed7eefb"
+                }
+              ]
+            },
+            "id": "18e5957a-f602-40b7-80fa-74ae79d7261a",
+            "zIndex": 2,
+            "data": {
+              "type": "tm.Process",
+              "name": "Web Application (Frontend Candidate Interface)",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 792,
+              "y": 220
+            },
+            "size": {
+              "width": 330,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Node.js Server (Candidate Registration Logic)"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "c4eab3c7-d3e2-4528-a7e2-729907f515ed"
+                },
+                {
+                  "group": "right",
+                  "id": "f0e5511a-cda5-4e02-a17b-49dbaf049e79"
+                },
+                {
+                  "group": "bottom",
+                  "id": "f35b2bcd-21d1-4891-9489-04650744cbd4"
+                },
+                {
+                  "group": "left",
+                  "id": "8acea98e-82f6-4928-828b-77f0aed7eefb"
+                }
+              ]
+            },
+            "id": "0ccffb29-2176-4b74-b246-72a21608722e",
+            "zIndex": 3,
+            "data": {
+              "type": "tm.Process",
+              "name": "Node.js Server (Candidate Registration Logic)",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 1174,
+              "y": 220
+            },
+            "size": {
+              "width": 200,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "MongoDB (Candidate Data)"
+              },
+              "topLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              },
+              "bottomLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "store",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "73058e3d-5f07-41f1-be0a-c3eeccb7428e"
+                },
+                {
+                  "group": "right",
+                  "id": "c5e82616-d36d-47f3-a3b5-d935b25fb9a0"
+                },
+                {
+                  "group": "bottom",
+                  "id": "914a6b64-20d6-4e5e-b9ed-c979564b5d87"
+                },
+                {
+                  "group": "left",
+                  "id": "2125e659-679e-45d7-81a2-f0aeb013c03d"
+                }
+              ]
+            },
+            "id": "5af9b8e0-c76e-4a7b-8ccc-ad822f2956f1",
+            "zIndex": 4,
+            "data": {
+              "type": "tm.Store",
+              "name": "MongoDB (Candidate Data)",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isALog": false,
+              "isEncrypted": false,
+              "isSigned": false,
+              "storesCredentials": false,
+              "storesInventory": false,
+              "threats": []
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Candidate Information (single form data or .CSV file)",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Candidate Information (single form data or .CSV file)"
+            ],
+            "id": "9dc0bf74-2adc-42c9-b971-69c4bbd60f0b",
+            "source": {
+              "cell": "be3e2d0f-f07f-4b04-aeb4-abe1b7ee1a9f",
+              "port": "8d7e5907-bd8f-4086-b437-af293768bb60"
+            },
+            "target": {
+              "cell": "18e5957a-f602-40b7-80fa-74ae79d7261a",
+              "port": "c4eab3c7-d3e2-4528-a7e2-729907f515ed"
+            },
+            "vertices": [
+              {
+                "x": 360,
+                "y": 180
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Candidate Registration Request (candidate info)",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Candidate Registration Request (candidate info)"
+            ],
+            "id": "9e8c8ad4-cf33-4977-bc6e-ded26e8630c5",
+            "source": {
+              "cell": "18e5957a-f602-40b7-80fa-74ae79d7261a",
+              "port": "c4eab3c7-d3e2-4528-a7e2-729907f515ed"
+            },
+            "target": {
+              "cell": "0ccffb29-2176-4b74-b246-72a21608722e",
+              "port": "c4eab3c7-d3e2-4528-a7e2-729907f515ed"
+            },
+            "vertices": [
+              {
+                "x": 740,
+                "y": 180
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Store Candidate Information",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Store Candidate Information"
+            ],
+            "id": "74b6e529-9e1c-4152-bc49-bc723439878b",
+            "source": {
+              "cell": "0ccffb29-2176-4b74-b246-72a21608722e",
+              "port": "c4eab3c7-d3e2-4528-a7e2-729907f515ed"
+            },
+            "target": {
+              "cell": "5af9b8e0-c76e-4a7b-8ccc-ad822f2956f1",
+              "port": "73058e3d-5f07-41f1-be0a-c3eeccb7428e"
+            },
+            "vertices": [
+              {
+                "x": 1120,
+                "y": 170
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Candidate Registration Confirmation",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Candidate Registration Confirmation"
+            ],
+            "id": "ec428320-98c1-4727-95f4-0c7265d70352",
+            "source": {
+              "cell": "0ccffb29-2176-4b74-b246-72a21608722e",
+              "port": "f35b2bcd-21d1-4891-9489-04650744cbd4"
+            },
+            "target": {
+              "cell": "18e5957a-f602-40b7-80fa-74ae79d7261a",
+              "port": "f35b2bcd-21d1-4891-9489-04650744cbd4"
+            },
+            "vertices": [
+              {
+                "x": 750,
+                "y": 310
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Election Administrator: Display Confirmation",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Election Administrator: Display Confirmation"
+            ],
+            "id": "d06da986-f82c-4fcd-9302-c81822646dfe",
+            "source": {
+              "cell": "18e5957a-f602-40b7-80fa-74ae79d7261a",
+              "port": "f35b2bcd-21d1-4891-9489-04650744cbd4"
+            },
+            "target": {
+              "cell": "be3e2d0f-f07f-4b04-aeb4-abe1b7ee1a9f",
+              "port": "964d9d7d-3214-4311-bedc-b9d82825f16d"
+            },
+            "vertices": [
+              {
+                "x": 370,
+                "y": 330
+              }
+            ]
+          }
+        ],
         "description": "Candidate Registration"
       },
       {
