@@ -1706,7 +1706,785 @@
         "placeholder": "New STRIDE diagram description",
         "thumbnail": "./public/content/images/thumbnail.stride.jpg",
         "version": "2.4.1",
-        "cells": [],
+        "cells": [
+          {
+            "position": {
+              "x": 120,
+              "y": 80
+            },
+            "size": {
+              "width": 160,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Election Administrator"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "0ff394df-0b42-4f23-be9a-840248097485"
+                },
+                {
+                  "group": "right",
+                  "id": "92dd4659-59a9-46fa-bc5d-ccff696c46da"
+                },
+                {
+                  "group": "bottom",
+                  "id": "302dd0de-8634-429d-84f9-7b04ff6e5cd9"
+                },
+                {
+                  "group": "left",
+                  "id": "27b59f6c-e0f1-4edf-befd-252c4896e406"
+                }
+              ]
+            },
+            "id": "18078cf9-60e5-4cd8-9570-6d8666631940",
+            "zIndex": 1,
+            "data": {
+              "type": "tm.Actor",
+              "name": "Election Administrator",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "providesAuthentication": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 350,
+              "y": 80
+            },
+            "size": {
+              "width": 330,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Web Application (Frontend Registration Interface)"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "89edee12-070a-4168-8315-769040cbb802"
+                },
+                {
+                  "group": "right",
+                  "id": "55b82cf9-6a69-4aa8-957a-5229175d9561"
+                },
+                {
+                  "group": "bottom",
+                  "id": "e3ebb363-bd28-4dfa-81f1-b5afbaf53ce2"
+                },
+                {
+                  "group": "left",
+                  "id": "25842e37-8820-4a7d-80c1-b5979be15338"
+                }
+              ]
+            },
+            "id": "9ed79cc9-1488-47b0-8083-2f754d657ad7",
+            "zIndex": 2,
+            "data": {
+              "type": "tm.Process",
+              "name": "Web Application (Frontend Registration Interface)",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 740,
+              "y": 80
+            },
+            "size": {
+              "width": 290,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Node.js Server (Voter Registration Logic)"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "89edee12-070a-4168-8315-769040cbb802"
+                },
+                {
+                  "group": "right",
+                  "id": "55b82cf9-6a69-4aa8-957a-5229175d9561"
+                },
+                {
+                  "group": "bottom",
+                  "id": "e3ebb363-bd28-4dfa-81f1-b5afbaf53ce2"
+                },
+                {
+                  "group": "left",
+                  "id": "25842e37-8820-4a7d-80c1-b5979be15338"
+                }
+              ]
+            },
+            "id": "260601b4-68d3-4da6-bbfa-c94b184e4d37",
+            "zIndex": 3,
+            "data": {
+              "type": "tm.Process",
+              "name": "Node.js Server (Voter Registration Logic)",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 1240,
+              "y": 70
+            },
+            "size": {
+              "width": 210,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "DS3.1: MongoDB (Voter Data)"
+              },
+              "topLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              },
+              "bottomLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "store",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "f6736191-df8c-4d06-a30f-765931073cf9"
+                },
+                {
+                  "group": "right",
+                  "id": "ffd1e477-3638-4a0d-b58a-e4992ea0b509"
+                },
+                {
+                  "group": "bottom",
+                  "id": "14944f29-b6b9-407f-963d-9ba2bbfd36c3"
+                },
+                {
+                  "group": "left",
+                  "id": "07e76375-5d82-4450-814f-699f98608379"
+                }
+              ]
+            },
+            "id": "1e5d0e49-9c22-4e58-ac0a-6792323ba2c6",
+            "zIndex": 4,
+            "data": {
+              "type": "tm.Store",
+              "name": "DS3.1: MongoDB (Voter Data)",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isALog": false,
+              "isEncrypted": false,
+              "isSigned": false,
+              "storesCredentials": false,
+              "storesInventory": false,
+              "threats": []
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Voter Information (single form data or batch .CSV file)",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Voter Information (single form data or batch .CSV file)"
+            ],
+            "id": "32f5f8c3-8903-4abf-ae37-6e590934b47d",
+            "source": {
+              "cell": "18078cf9-60e5-4cd8-9570-6d8666631940",
+              "port": "0ff394df-0b42-4f23-be9a-840248097485"
+            },
+            "target": {
+              "cell": "9ed79cc9-1488-47b0-8083-2f754d657ad7",
+              "port": "89edee12-070a-4168-8315-769040cbb802"
+            },
+            "vertices": [
+              {
+                "x": 340,
+                "y": 20
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Voter Registration Request (voter info)",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Voter Registration Request (voter info)"
+            ],
+            "id": "08198cc1-25a3-45de-811f-f5efa665a228",
+            "source": {
+              "cell": "9ed79cc9-1488-47b0-8083-2f754d657ad7",
+              "port": "89edee12-070a-4168-8315-769040cbb802"
+            },
+            "target": {
+              "cell": "260601b4-68d3-4da6-bbfa-c94b184e4d37",
+              "port": "89edee12-070a-4168-8315-769040cbb802"
+            },
+            "vertices": [
+              {
+                "x": 710,
+                "y": 20
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Store Voter Data (voter info, hashed password, public key, encrypted private key)",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Store Voter Data (voter info, hashed password, public key, encrypted private key)"
+            ],
+            "id": "10d4ec8d-d1bd-4f9f-8bb0-51422a03ba60",
+            "source": {
+              "cell": "260601b4-68d3-4da6-bbfa-c94b184e4d37",
+              "port": "89edee12-070a-4168-8315-769040cbb802"
+            },
+            "target": {
+              "cell": "1e5d0e49-9c22-4e58-ac0a-6792323ba2c6",
+              "port": "f6736191-df8c-4d06-a30f-765931073cf9"
+            },
+            "vertices": [
+              {
+                "x": 1050,
+                "y": 20
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Data Flow"
+            ],
+            "id": "ad789819-7c04-4df4-bd97-14cd23ecba31",
+            "source": {
+              "cell": "260601b4-68d3-4da6-bbfa-c94b184e4d37",
+              "port": "e3ebb363-bd28-4dfa-81f1-b5afbaf53ce2"
+            },
+            "target": {
+              "cell": "9ed79cc9-1488-47b0-8083-2f754d657ad7",
+              "port": "e3ebb363-bd28-4dfa-81f1-b5afbaf53ce2"
+            },
+            "vertices": [
+              {
+                "x": 700,
+                "y": 190
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Election Administrator: Display Confirmation",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Election Administrator: Display Confirmation"
+            ],
+            "id": "c948db38-3e75-43ab-8bd1-701f974602bd",
+            "source": {
+              "cell": "9ed79cc9-1488-47b0-8083-2f754d657ad7",
+              "port": "e3ebb363-bd28-4dfa-81f1-b5afbaf53ce2"
+            },
+            "target": {
+              "cell": "18078cf9-60e5-4cd8-9570-6d8666631940",
+              "port": "302dd0de-8634-429d-84f9-7b04ff6e5cd9"
+            },
+            "vertices": [
+              {
+                "x": 370,
+                "y": 200
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Exported Credentials, Passwords, and Keys (This flow occurs if the admin chooses to export)",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Exported Credentials, Passwords, and Keys (This flow occurs if the admin chooses to export)"
+            ],
+            "id": "52632a2c-8228-4af1-8ab6-dbf154fe0ea8",
+            "source": {
+              "cell": "9ed79cc9-1488-47b0-8083-2f754d657ad7",
+              "port": "e3ebb363-bd28-4dfa-81f1-b5afbaf53ce2"
+            },
+            "target": {
+              "cell": "18078cf9-60e5-4cd8-9570-6d8666631940",
+              "port": "302dd0de-8634-429d-84f9-7b04ff6e5cd9"
+            },
+            "vertices": [
+              {
+                "x": 350,
+                "y": 290
+              }
+            ]
+          }
+        ],
         "description": "Voter Registration"
       },
       {
