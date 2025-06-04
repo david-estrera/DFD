@@ -830,7 +830,862 @@
         "placeholder": "New STRIDE diagram description",
         "thumbnail": "./public/content/images/thumbnail.stride.jpg",
         "version": "2.4.1",
-        "cells": [],
+        "cells": [
+          {
+            "position": {
+              "x": 330,
+              "y": 50.000000000004434
+            },
+            "size": {
+              "width": 890,
+              "height": 380
+            },
+            "attrs": {
+              "label": {
+                "text": "Perimeter firewall"
+              }
+            },
+            "visible": true,
+            "shape": "trust-boundary-box",
+            "id": "715aebc9-0934-4a56-9bd2-fc5fbc0ced41",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "Perimeter firewall",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            }
+          },
+          {
+            "position": {
+              "x": 90,
+              "y": 220
+            },
+            "size": {
+              "width": 180,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Election Administrator"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "0c9bfe2d-0e3e-41ee-af64-3b15172ca361"
+                },
+                {
+                  "group": "right",
+                  "id": "1053223e-c9e6-4234-a2ec-781ab78943d5"
+                },
+                {
+                  "group": "bottom",
+                  "id": "1596cef8-905b-44e7-8762-995a1f202ae1"
+                },
+                {
+                  "group": "left",
+                  "id": "b9414996-f88d-4276-889a-28d396dd7f27"
+                }
+              ]
+            },
+            "id": "b460adc5-ee61-4087-b8a1-d1445d86596f",
+            "zIndex": 1,
+            "data": {
+              "type": "tm.Actor",
+              "name": "Election Administrator",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "providesAuthentication": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 349,
+              "y": 220
+            },
+            "size": {
+              "width": 220,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Web Application (Frontend Login)"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "d2381de7-5ee2-4461-b9ee-3077a30a6c70"
+                },
+                {
+                  "group": "right",
+                  "id": "5c8cf756-6104-409c-ad4d-7c99c330829a"
+                },
+                {
+                  "group": "bottom",
+                  "id": "4f533076-b96b-47dd-95a6-7eadb17235b3"
+                },
+                {
+                  "group": "left",
+                  "id": "6a674fc3-345c-4a91-b8ac-3dd7d1b92d4c"
+                }
+              ]
+            },
+            "id": "5bd5a007-f326-4b9c-bd3b-b35411e2650e",
+            "zIndex": 2,
+            "data": {
+              "type": "tm.Process",
+              "name": "Web Application (Frontend Login)",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 630,
+              "y": 220
+            },
+            "size": {
+              "width": 290,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Node.js Server (Admin Authentication API)"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "d2381de7-5ee2-4461-b9ee-3077a30a6c70"
+                },
+                {
+                  "group": "right",
+                  "id": "5c8cf756-6104-409c-ad4d-7c99c330829a"
+                },
+                {
+                  "group": "bottom",
+                  "id": "4f533076-b96b-47dd-95a6-7eadb17235b3"
+                },
+                {
+                  "group": "left",
+                  "id": "6a674fc3-345c-4a91-b8ac-3dd7d1b92d4c"
+                }
+              ]
+            },
+            "id": "24f854bb-0939-42c9-bb59-6af2f0445401",
+            "zIndex": 3,
+            "data": {
+              "type": "tm.Process",
+              "name": "Node.js Server (Admin Authentication API)",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 990,
+              "y": 220
+            },
+            "size": {
+              "width": 220,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "MongoDB (Admin Credentials)"
+              },
+              "topLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              },
+              "bottomLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "store",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "de3f7481-8362-487f-9ece-875769a40ba8"
+                },
+                {
+                  "group": "right",
+                  "id": "ebae6626-7620-4db8-8494-044539dadc8b"
+                },
+                {
+                  "group": "bottom",
+                  "id": "99b3cdb0-99bd-48d9-a2a5-c5bd0b9d5738"
+                },
+                {
+                  "group": "left",
+                  "id": "a9ff4bc8-e2a1-4f27-ad66-1130ceb2b114"
+                }
+              ]
+            },
+            "id": "7154775f-6430-4076-b8fe-4c50ba263846",
+            "zIndex": 4,
+            "data": {
+              "type": "tm.Store",
+              "name": "MongoDB (Admin Credentials)",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isALog": false,
+              "isEncrypted": false,
+              "isSigned": false,
+              "storesCredentials": false,
+              "storesInventory": false,
+              "threats": []
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Admin Login Credentials (username, password)",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Admin Login Credentials (username, password)"
+            ],
+            "id": "a05fe55b-ddd6-478b-85fb-b6b36c0612f8",
+            "source": {
+              "cell": "b460adc5-ee61-4087-b8a1-d1445d86596f",
+              "port": "0c9bfe2d-0e3e-41ee-af64-3b15172ca361"
+            },
+            "target": {
+              "cell": "5bd5a007-f326-4b9c-bd3b-b35411e2650e",
+              "port": "d2381de7-5ee2-4461-b9ee-3077a30a6c70"
+            },
+            "vertices": [
+              {
+                "x": 310,
+                "y": 150
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Admin Authentication Request (credentials)",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Admin Authentication Request (credentials)"
+            ],
+            "id": "6924f54f-8764-454a-b2ca-79ab1862925a",
+            "source": {
+              "cell": "5bd5a007-f326-4b9c-bd3b-b35411e2650e",
+              "port": "d2381de7-5ee2-4461-b9ee-3077a30a6c70"
+            },
+            "target": {
+              "cell": "24f854bb-0939-42c9-bb59-6af2f0445401",
+              "port": "d2381de7-5ee2-4461-b9ee-3077a30a6c70"
+            },
+            "vertices": [
+              {
+                "x": 610,
+                "y": 120
+              }
+            ],
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead"
+              ],
+              "name": null
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Query Admin Credentials (username)",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Query Admin Credentials (username)"
+            ],
+            "id": "11500182-e0f1-4dcc-acc3-09c3dde707b5",
+            "source": {
+              "cell": "24f854bb-0939-42c9-bb59-6af2f0445401",
+              "port": "d2381de7-5ee2-4461-b9ee-3077a30a6c70"
+            },
+            "target": {
+              "cell": "7154775f-6430-4076-b8fe-4c50ba263846",
+              "port": "de3f7481-8362-487f-9ece-875769a40ba8"
+            },
+            "vertices": [
+              {
+                "x": 930,
+                "y": 160
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Stored Admin Hashed Password",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Stored Admin Hashed Password"
+            ],
+            "id": "5f12f30c-84fc-4487-91dd-7813f4a4a551",
+            "source": {
+              "cell": "7154775f-6430-4076-b8fe-4c50ba263846",
+              "port": "99b3cdb0-99bd-48d9-a2a5-c5bd0b9d5738"
+            },
+            "target": {
+              "cell": "24f854bb-0939-42c9-bb59-6af2f0445401",
+              "port": "4f533076-b96b-47dd-95a6-7eadb17235b3"
+            },
+            "vertices": [
+              {
+                "x": 940,
+                "y": 340
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Admin Authentication Response (success/failure, session token)",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Admin Authentication Response (success/failure, session token)"
+            ],
+            "id": "18710700-945b-4332-861a-f75830fd3e73",
+            "source": {
+              "cell": "24f854bb-0939-42c9-bb59-6af2f0445401",
+              "port": "4f533076-b96b-47dd-95a6-7eadb17235b3"
+            },
+            "target": {
+              "cell": "5bd5a007-f326-4b9c-bd3b-b35411e2650e",
+              "port": "4f533076-b96b-47dd-95a6-7eadb17235b3"
+            },
+            "vertices": [
+              {
+                "x": 610,
+                "y": 370
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Render Administrator Dashboard / Error Message",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Render Administrator Dashboard / Error Message"
+            ],
+            "id": "8860147d-a003-4edd-b588-6c0a2dc6ef06",
+            "source": {
+              "cell": "5bd5a007-f326-4b9c-bd3b-b35411e2650e",
+              "port": "4f533076-b96b-47dd-95a6-7eadb17235b3"
+            },
+            "target": {
+              "cell": "b460adc5-ee61-4087-b8a1-d1445d86596f",
+              "port": "1596cef8-905b-44e7-8762-995a1f202ae1"
+            },
+            "vertices": [
+              {
+                "x": 320,
+                "y": 330
+              }
+            ]
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Database server trusts calls",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "labels": [
+              "Database server trusts calls"
+            ],
+            "id": "070e41ac-cb7e-47e0-9bfb-39fa3fd12a60",
+            "source": {
+              "x": 930,
+              "y": 70
+            },
+            "target": {
+              "x": 930,
+              "y": 390
+            }
+          }
+        ],
         "description": "Election Administrator Authentication"
       },
       {
