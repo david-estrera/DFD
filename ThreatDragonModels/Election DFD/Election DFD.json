@@ -3254,6 +3254,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 1,
             "ports": {
               "groups": {
                 "top": {
@@ -3337,7 +3338,6 @@
               ]
             },
             "id": "fe951b94-3e1b-49c9-a00d-183d865c9a79",
-            "zIndex": 1,
             "data": {
               "type": "tm.Actor",
               "name": "Voter",
@@ -3370,6 +3370,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 2,
             "ports": {
               "groups": {
                 "top": {
@@ -3453,7 +3454,6 @@
               ]
             },
             "id": "755826ab-8a02-4b61-af1f-8337e6e53ac9",
-            "zIndex": 2,
             "data": {
               "type": "tm.Process",
               "name": "Web Application (Frontend Voting Interface)",
@@ -3489,6 +3489,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 3,
             "ports": {
               "groups": {
                 "top": {
@@ -3572,7 +3573,6 @@
               ]
             },
             "id": "26c664c1-c990-43f1-ac5e-c4f6142a3bfa",
-            "zIndex": 3,
             "data": {
               "type": "tm.Process",
               "name": "Node.js Server (Controller/Election Module)",
@@ -3608,6 +3608,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 4,
             "ports": {
               "groups": {
                 "top": {
@@ -3691,7 +3692,6 @@
               ]
             },
             "id": "15a13342-76ff-4d22-9496-d90860bdc22a",
-            "zIndex": 4,
             "data": {
               "type": "tm.Process",
               "name": "Ethereum Node",
@@ -3727,6 +3727,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 5,
             "ports": {
               "groups": {
                 "top": {
@@ -3810,7 +3811,6 @@
               ]
             },
             "id": "048c04b3-cd83-456f-8176-f8d2f9d87d1f",
-            "zIndex": 5,
             "data": {
               "type": "tm.Process",
               "name": "Smart Contract",
@@ -3849,6 +3849,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 6,
             "ports": {
               "groups": {
                 "top": {
@@ -3932,7 +3933,6 @@
               ]
             },
             "id": "ebddeaaf-33cc-47f5-8c29-9e42a4457747",
-            "zIndex": 6,
             "data": {
               "type": "tm.Store",
               "name": "MongoDB (Voter Credentials, Keys, Ballot Info)",
@@ -3972,6 +3972,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 7,
             "ports": {
               "groups": {
                 "top": {
@@ -4055,7 +4056,6 @@
               ]
             },
             "id": "cad7d533-0d8d-4490-958f-4247bcde27d5",
-            "zIndex": 7,
             "data": {
               "type": "tm.Store",
               "name": "Ethereum Blockchain",
