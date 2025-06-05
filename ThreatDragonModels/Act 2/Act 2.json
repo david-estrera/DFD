@@ -1,0 +1,31 @@
+{
+  "version": "2.4.1",
+  "summary": {
+    "title": "Act 2",
+    "owner": "David Estrera",
+    "description": "simple web application",
+    "id": 0
+  },
+  "detail": {
+    "contributors": [
+      {
+        "name": "David Estrera"
+      }
+    ],
+    "diagrams": [
+      {
+        "id": 0,
+        "title": "Activity 2",
+        "diagramType": "STRIDE",
+        "placeholder": "New STRIDE diagram description",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "version": "2.4.1",
+        "cells": [],
+        "description": "simple web application"
+      }
+    ],
+    "diagramTop": 1,
+    "reviewer": "",
+    "threatTop": 0
+  }
+}
