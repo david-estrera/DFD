@@ -561,7 +561,7 @@
                   "title": "Spoofing",
                   "status": "Open",
                   "severity": "TBD",
-                  "type": "Information disclosure",
+                  "type": "Spoofing",
                   "description": "See OWASP Automated Threat #11:\nCollecting accessible data and/or processed output from the application",
                   "mitigation": "Detect fake or compromised accounts, ensure information is accessible only with authentication and authorisation",
                   "modelType": "STRIDE",
