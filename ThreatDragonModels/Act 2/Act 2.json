@@ -42,6 +42,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 2,
             "ports": {
               "groups": {
                 "top": {
@@ -125,7 +126,6 @@
               ]
             },
             "id": "2b6b9c84-69ed-4763-af70-3ed903957b0e",
-            "zIndex": 2,
             "data": {
               "type": "tm.Process",
               "name": "Web Application",
@@ -183,6 +183,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 3,
             "ports": {
               "groups": {
                 "top": {
@@ -266,7 +267,6 @@
               ]
             },
             "id": "4da1ae88-133e-4b97-bfdc-652eddbffc8e",
-            "zIndex": 3,
             "data": {
               "type": "tm.Process",
               "name": "Authorization Provider",
@@ -301,13 +301,6 @@
                 "denialOfService": 0,
                 "elevationOfPrivilege": 1
               }
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           },
           {
@@ -324,16 +317,19 @@
                 "text": "LDAP"
               },
               "topLine": {
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               },
               "bottomLine": {
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               }
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 4,
             "ports": {
               "groups": {
                 "top": {
@@ -417,20 +413,39 @@
               ]
             },
             "id": "b528a1a7-16d9-4474-82b4-223dd9eb7f71",
-            "zIndex": 4,
             "data": {
               "type": "tm.Store",
               "name": "LDAP",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "isALog": false,
               "isEncrypted": false,
               "isSigned": false,
               "storesCredentials": false,
               "storesInventory": false,
-              "threats": []
+              "threats": [
+                {
+                  "id": "48bd328b-c9b4-4438-a8f6-8b75da6f1c31",
+                  "title": "SQL Injection Attack",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Tampering",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 10,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "tampering": 1,
+                "repudiation": 0,
+                "informationDisclosure": 0,
+                "denialOfService": 0
+              }
             }
           },
           {
@@ -459,6 +474,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 5,
             "ports": {
               "groups": {
                 "top": {
@@ -542,7 +558,6 @@
               ]
             },
             "id": "340c7d73-de34-4181-afde-b415ec3dd943",
-            "zIndex": 5,
             "data": {
               "type": "tm.Store",
               "name": "SQL Database",
@@ -561,7 +576,7 @@
                   "title": "Spoofing",
                   "status": "Open",
                   "severity": "TBD",
-                  "type": "Spoofing",
+                  "type": "Information disclosure",
                   "description": "See OWASP Automated Threat #11:\nCollecting accessible data and/or processed output from the application",
                   "mitigation": "Detect fake or compromised accounts, ensure information is accessible only with authentication and authorisation",
                   "modelType": "STRIDE",
@@ -599,6 +614,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 6,
             "ports": {
               "groups": {
                 "top": {
@@ -682,7 +698,6 @@
               ]
             },
             "id": "da6b212d-a093-4258-9bde-bb7ac34bfe87",
-            "zIndex": 6,
             "data": {
               "type": "tm.Actor",
               "name": "Browser Client",
@@ -718,6 +733,6 @@
     ],
     "diagramTop": 1,
     "reviewer": "",
-    "threatTop": 8
+    "threatTop": 10
   }
 }
