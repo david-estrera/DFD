@@ -1026,6 +1026,206 @@
                 "y": 130
               }
             ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Verifies the privilege",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Verifies the privilege"
+            ],
+            "id": "9a58eac0-b6da-4830-b66e-d736d01afce1",
+            "source": {
+              "cell": "4da1ae88-133e-4b97-bfdc-652eddbffc8e",
+              "port": "81530080-967f-4b7f-a8c0-1d60995076b5"
+            },
+            "target": {
+              "cell": "b528a1a7-16d9-4474-82b4-223dd9eb7f71",
+              "port": "00133a83-0e1d-4a8b-a518-ea68e7b44d51"
+            },
+            "vertices": [
+              {
+                "x": 580,
+                "y": -50
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Verifie",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Verifie"
+            ],
+            "id": "8012b43b-cf5c-4808-9f14-e28b1bab1180",
+            "source": {
+              "cell": "b528a1a7-16d9-4474-82b4-223dd9eb7f71",
+              "port": "d7a1b2a8-e7b7-4c79-980d-faa2f451ba5a"
+            },
+            "target": {
+              "cell": "4da1ae88-133e-4b97-bfdc-652eddbffc8e",
+              "port": "b0917dcd-626f-44a7-9fb0-0deb2e6a43e0"
+            },
+            "vertices": [
+              {
+                "x": 610,
+                "y": 90
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Insert query with feedback comments",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Insert query with feedback comments"
+            ],
+            "id": "fb97d77e-1f37-491d-be18-ba0c36a07388",
+            "source": {
+              "cell": "2b6b9c84-69ed-4763-af70-3ed903957b0e",
+              "port": "b0917dcd-626f-44a7-9fb0-0deb2e6a43e0"
+            },
+            "target": {
+              "cell": "340c7d73-de34-4181-afde-b415ec3dd943",
+              "port": "00133a83-0e1d-4a8b-a518-ea68e7b44d51"
+            },
+            "vertices": [
+              {
+                "x": 600,
+                "y": 190
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Success=1",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Success=1"
+            ],
+            "id": "60fb05a4-4262-4c35-a427-4b0558fcf4fd",
+            "source": {
+              "cell": "340c7d73-de34-4181-afde-b415ec3dd943",
+              "port": "d7a1b2a8-e7b7-4c79-980d-faa2f451ba5a"
+            },
+            "target": {
+              "cell": "2b6b9c84-69ed-4763-af70-3ed903957b0e",
+              "port": "ea07d68e-ccf4-4e2a-ac4c-b62e868f5462"
+            },
+            "vertices": [
+              {
+                "x": 580,
+                "y": 330
+              }
+            ]
           }
         ],
         "description": "simple web application"
